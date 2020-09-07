@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.web.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <WebView fx:id="webView" layoutX="14.0" layoutY="40.0" prefHeight="509.0" prefWidth="779.0" />
+      <HBox layoutX="14.0" layoutY="13.0">
+         <children>
+            <Hyperlink fx:id="hlBackward" text="Backward" />
+            <Hyperlink fx:id="hlForward" text="Forward" />
+            <Hyperlink fx:id="hlReload" text="Reload" />
+            <Hyperlink fx:id="hlHome" text="Home" />
+            <TextField fx:id="tfSearch" prefHeight="25.0" prefWidth="343.0" />
+            <Hyperlink fx:id="hlSearch" text="Search" />
+            <Hyperlink fx:id="hlZoomIn" text="Zoom In" />
+            <Hyperlink fx:id="hlZoomOut" text="Zoom Out" />
+            <Hyperlink fx:id="hlFontSizeUp" text="+" />
+            <Hyperlink fx:id="hlFontSizeDown" text="-" />
+            <Hyperlink fx:id="hlAbout" text="About" />
+         </children>
+      </HBox>
+      <HBox layoutX="14.0" layoutY="575.0">
+         <children>
+            <Hyperlink fx:id="hlYoutube" text="YouTube" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
